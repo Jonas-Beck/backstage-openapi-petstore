@@ -2,9 +2,7 @@ import { MiddlewareFactory } from '@backstage/backend-defaults/rootHttpRouter';
 import { LoggerService } from '@backstage/backend-plugin-api';
 import { Config } from '@backstage/config';
 import express from 'express';
-import Router from 'express-promise-router';
-// Import createOpenApiRouter from generate file
-// import { createOpenApiRouter } from '../schema/openapi.generated';
+import { createOpenApiRouter } from '../schema/openapi.generated';
 
 export interface RouterOptions {
   logger: LoggerService;
@@ -18,9 +16,9 @@ export async function createRouter(
 
   // The only change needed to use the generated typed Express router
   // is to use the createOpenApiRouter() method instead of Router().
+  // const router = Router();
+  const router = await createOpenApiRouter();
 
-  // const router = createOpenApiRouter();
-  const router = Router();
   router.use(express.json());
 
   router.get('/health', (_, response) => {
