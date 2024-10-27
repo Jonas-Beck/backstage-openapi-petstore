@@ -2147,76 +2147,6 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-common@^0.24.1":
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.24.1.tgz#62253f854c840b3564a21ab945658fbfd49e05a6"
-  integrity sha512-U4CHgO1Ob1v4StgMolNpVRGg1c3LqhUY2L5ztjdKu3yuwgQcSTWi/sQTtua4OTWTupmhkyYGfroAoeE1QFqUCA==
-  dependencies:
-    "@aws-sdk/abort-controller" "^3.347.0"
-    "@aws-sdk/client-codecommit" "^3.350.0"
-    "@aws-sdk/client-s3" "^3.350.0"
-    "@aws-sdk/credential-providers" "^3.350.0"
-    "@aws-sdk/types" "^3.347.0"
-    "@backstage/backend-dev-utils" "^0.1.5"
-    "@backstage/backend-plugin-api" "^0.8.1"
-    "@backstage/cli-common" "^0.1.14"
-    "@backstage/config" "^1.2.0"
-    "@backstage/config-loader" "^1.9.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/integration" "^1.14.0"
-    "@backstage/integration-aws-node" "^0.1.12"
-    "@backstage/plugin-auth-node" "^0.5.1"
-    "@backstage/types" "^1.1.1"
-    "@google-cloud/storage" "^7.0.0"
-    "@keyv/memcache" "^1.3.5"
-    "@keyv/redis" "^2.5.3"
-    "@kubernetes/client-node" "0.20.0"
-    "@manypkg/get-packages" "^1.1.3"
-    "@octokit/rest" "^19.0.3"
-    "@types/cors" "^2.8.6"
-    "@types/dockerode" "^3.3.0"
-    "@types/express" "^4.17.6"
-    "@types/luxon" "^3.0.0"
-    "@types/webpack-env" "^1.15.2"
-    archiver "^6.0.0"
-    base64-stream "^1.0.0"
-    compression "^1.7.4"
-    concat-stream "^2.0.0"
-    cors "^2.8.5"
-    dockerode "^4.0.0"
-    express "^4.17.1"
-    express-promise-router "^4.1.0"
-    fs-extra "^11.2.0"
-    git-url-parse "^14.0.0"
-    helmet "^6.0.0"
-    isomorphic-git "^1.23.0"
-    jose "^5.0.0"
-    keyv "^4.5.2"
-    knex "^3.0.0"
-    lodash "^4.17.21"
-    logform "^2.3.2"
-    luxon "^3.0.0"
-    minimatch "^9.0.0"
-    minimist "^1.2.5"
-    morgan "^1.10.0"
-    mysql2 "^3.0.0"
-    node-fetch "^2.7.0"
-    node-forge "^1.3.1"
-    p-limit "^3.1.0"
-    path-to-regexp "^6.2.1"
-    pg "^8.11.3"
-    pg-format "^1.0.4"
-    raw-body "^2.4.1"
-    selfsigned "^2.0.0"
-    stoppable "^1.1.0"
-    tar "^6.1.12"
-    triple-beam "^1.4.1"
-    uuid "^9.0.0"
-    winston "^3.2.1"
-    winston-transport "^4.5.0"
-    yauzl "^3.0.0"
-    yn "^4.0.0"
-
 "@backstage/backend-common@^0.25.0":
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.25.0.tgz#11ca616cde67fe27f757a7a95817eaa3b1e33b1c"
@@ -2391,23 +2321,6 @@
     openapi-merge "^1.3.2"
     openapi3-ts "^3.1.2"
 
-"@backstage/backend-plugin-api@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-0.8.1.tgz#da1a2baea63098ae0c7da88ecad58e4b96ee90ac"
-  integrity sha512-Ckr/aE+jSZzwooH6nRCRWhtJFhm4P1JTyukH8gygP0wIkQGdoC7n3Xt7cheGP2fMV//9p5NZ+sfNZTr8LpO8hg==
-  dependencies:
-    "@backstage/cli-common" "^0.1.14"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/plugin-auth-node" "^0.5.1"
-    "@backstage/plugin-permission-common" "^0.8.1"
-    "@backstage/types" "^1.1.1"
-    "@types/express" "^4.17.6"
-    "@types/luxon" "^3.0.0"
-    express "^4.17.1"
-    knex "^3.0.0"
-    luxon "^3.0.0"
-
 "@backstage/backend-plugin-api@^1.0.0", "@backstage/backend-plugin-api@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-1.0.1.tgz#5d329211054921d5d768262519a69afeca8edbdd"
@@ -2424,25 +2337,6 @@
     express "^4.17.1"
     knex "^3.0.0"
     luxon "^3.0.0"
-
-"@backstage/backend-tasks@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.6.1.tgz#5e85f1a2f192c30b771f2e487bb116f7b72e1fcd"
-  integrity sha512-8qipw1v8GpsQcbsPleIXv5pYrI/2pRZbet2XVv7mk7HpgjIkEoTRDtNV/Z6fL/IQZvyOuXPoUnzCDBcMI7Ipew==
-  dependencies:
-    "@backstage/backend-common" "^0.24.1"
-    "@backstage/backend-plugin-api" "^0.8.1"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@opentelemetry/api" "^1.3.0"
-    "@types/luxon" "^3.0.0"
-    cron "^3.0.0"
-    knex "^3.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-    uuid "^9.0.0"
-    zod "^3.22.4"
 
 "@backstage/backend-test-utils@^1.0.2":
   version "1.0.2"
@@ -2639,7 +2533,7 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
+"@backstage/config-loader@^1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.9.1.tgz#d67f024a2796fb7fd1ec3a8e120a5f153d86f9a4"
   integrity sha512-eOjCroAxtrJeNHkfaDVNamSq8TypJcwG3QgOnFDUIye3xER7GzwNzNxpMYeGkJWdEEUpLpn6xPp1ZtZxIYqVvA==
@@ -2854,7 +2748,7 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1":
+"@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.1.tgz#ee85ac915d7d561276c5ce43afa166393ab5deb0"
   integrity sha512-qV6XNmuiTX7WOtf39jRxDZAVNxdqy6pRYNGNAz8oiS7NlOdkcpg4t6ERJtrgmdaxYNCpQraZLJXER2eT4aTtWA==
@@ -3215,7 +3109,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.5.1", "@backstage/plugin-auth-node@^0.5.2", "@backstage/plugin-auth-node@^0.5.3":
+"@backstage/plugin-auth-node@^0.5.2", "@backstage/plugin-auth-node@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.3.tgz#7d3a27d3c2961f1b6e1c82c224176ed1e4134b64"
   integrity sha512-+v0YAbVVyMhnZEKmoyxAgkl34sBAf2YK99uYFpMr5rJqYrFAT8U+b/pHf9wfr2sbEIIbgKu0/DA6i/nuDxgk6Q==
@@ -9687,11 +9581,6 @@
   resolved "https://registry.yarnpkg.com/@types/lunr/-/lunr-2.3.7.tgz#378a98ecf7a9fafc42466f67f73173c34a6265a0"
   integrity sha512-Tb/kUm38e8gmjahQzdCKhbdsvQ9/ppzHFfsJ0dMs3ckqQsRj+P5IkSAwFTBrBxdyr3E/LoMUUrZngjDYAjiE3A==
 
-"@types/luxon@^2.0.4":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@types/luxon/-/luxon-2.4.0.tgz#897d3abc23b68d78b69d76a12c21e01eb5adab95"
-  integrity sha512-oCavjEjRXuR6URJEtQm0eBdfsBiEcGBZbq21of8iGkeKxU1+1xgKuFPClaBZl2KB8ZZBSWlgk61tH6Mf+nvZVw==
-
 "@types/luxon@^3.0.0", "@types/luxon@~3.4.0":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@types/luxon/-/luxon-3.4.2.tgz#e4fc7214a420173cea47739c33cdf10874694db7"
@@ -10820,7 +10709,6 @@ apg-lite@^1.0.3:
     react-dom "^18.0.2"
     react-router "^6.3.0"
     react-router-dom "^6.3.0"
-    react-use "^17.2.4"
 
 append-field@^1.0.0:
   version "1.0.0"
@@ -10831,18 +10719,6 @@ append-field@^1.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-2.0.0.tgz#52520b8ae5b569215b354efc0caa3fe1e45a8adc"
   integrity sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==
-
-archiver-utils@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/archiver-utils/-/archiver-utils-4.0.1.tgz#66ad15256e69589a77f706c90c6dbcc1b2775d2a"
-  integrity sha512-Q4Q99idbvzmgCTEAAhi32BkOyq8iVI5EwdO0PmBDSGIzzjYNdcFn7Q7k3OzbLy4kLUPXfJtG6fO2RjftXbobBg==
-  dependencies:
-    glob "^8.0.0"
-    graceful-fs "^4.2.0"
-    lazystream "^1.0.0"
-    lodash "^4.17.15"
-    normalize-path "^3.0.0"
-    readable-stream "^3.6.0"
 
 archiver-utils@^5.0.0, archiver-utils@^5.0.2:
   version "5.0.2"
@@ -10856,19 +10732,6 @@ archiver-utils@^5.0.0, archiver-utils@^5.0.2:
     lodash "^4.17.15"
     normalize-path "^3.0.0"
     readable-stream "^4.0.0"
-
-archiver@^6.0.0:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/archiver/-/archiver-6.0.2.tgz#f45e7598dfe48e834ac8c7a0c37033f826f5a639"
-  integrity sha512-UQ/2nW7NMl1G+1UnrLypQw1VdT9XZg/ECcKPq7l+STzStrSivFIXIp34D8M5zeNGW5NoOupdYCHv6VySCPNNlw==
-  dependencies:
-    archiver-utils "^4.0.1"
-    async "^3.2.4"
-    buffer-crc32 "^0.2.1"
-    readable-stream "^3.6.0"
-    readdir-glob "^1.1.2"
-    tar-stream "^3.0.0"
-    zip-stream "^5.0.1"
 
 archiver@^7.0.0, archiver@^7.0.1:
   version "7.0.1"
@@ -11739,15 +11602,15 @@ btoa@^1.2.1:
   resolved "https://registry.yarnpkg.com/btoa/-/btoa-1.2.1.tgz#01a9909f8b2c93f6bf680ba26131eb30f7fa3d73"
   integrity sha512-SB4/MIGlsiVkMcHmT+pSmIPoNDoHg+7cMzmt3Uxt628MTz2487DKSqK/fuhFBrkuqrYv5UCEnACpF4dTFNKc/g==
 
-buffer-crc32@^0.2.1, buffer-crc32@~0.2.3:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
-  integrity sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==
-
 buffer-crc32@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-1.0.0.tgz#a10993b9055081d55304bd9feb4a072de179f405"
   integrity sha512-Db1SbgBS/fg/392AblrMJk97KggmvYhr4pB5ZIMTWtaivCPMWLkmb7m21cJvpvgK+J3nsU2CmmixNBZx4vFj/w==
+
+buffer-crc32@~0.2.3:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
+  integrity sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==
 
 buffer-equal-constant-time@1.0.1:
   version "1.0.1"
@@ -12481,16 +12344,6 @@ component-emitter@^1.3.0:
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.1.tgz#ef1d5796f7d93f135ee6fb684340b26403c97d17"
   integrity sha512-T0+barUSQRTUQASh8bx02dl+DhF54GtIDY13Y3m9oWTklKbb3Wv974meRpeZ3lp1JpLVECWWNHC4vaG2XHXouQ==
 
-compress-commons@^5.0.1:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/compress-commons/-/compress-commons-5.0.3.tgz#36b6572fdfc220c88c9c939b48667818806667e9"
-  integrity sha512-/UIcLWvwAQyVibgpQDPtfNM3SvqN7G9elAPAV7GM0L53EbNWwWiCsWtK8Fwed/APEbptPHXs5PuW+y8Bq8lFTA==
-  dependencies:
-    crc-32 "^1.2.0"
-    crc32-stream "^5.0.0"
-    normalize-path "^3.0.0"
-    readable-stream "^3.6.0"
-
 compress-commons@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/compress-commons/-/compress-commons-6.0.2.tgz#26d31251a66b9d6ba23a84064ecd3a6a71d2609e"
@@ -12904,14 +12757,6 @@ crc-32@^1.2.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/crc-32/-/crc-32-1.2.2.tgz#3cad35a934b8bf71f25ca524b6da51fb7eace2ff"
   integrity sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==
-
-crc32-stream@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/crc32-stream/-/crc32-stream-5.0.1.tgz#bc1581c9a9022a9242605dc91b14e069e3aa87a5"
-  integrity sha512-lO1dFui+CEUh/ztYIpgpKItKW9Bb4NWakCRJrnqAbFIYD+OZAwb2VfD5T5eXMw2FNcsDHkQcNl/Wh3iVXYwU6g==
-  dependencies:
-    crc-32 "^1.2.0"
-    readable-stream "^3.4.0"
 
 crc32-stream@^6.0.0:
   version "6.0.0"
@@ -15741,7 +15586,7 @@ glob@^10.0.0, glob@^10.2.2, glob@^10.3.10, glob@^10.3.7, glob@^10.4.1:
     package-json-from-dist "^1.0.0"
     path-scurry "^1.11.1"
 
-glob@^8.0.0, glob@^8.0.1, glob@^8.0.3, glob@^8.1.0:
+glob@^8.0.1, glob@^8.0.3, glob@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-8.1.0.tgz#d388f656593ef708ee3e34640fdfb99a9fd1c33e"
   integrity sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==
@@ -21384,7 +21229,7 @@ path-to-regexp@3.2.0:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-3.2.0.tgz#fa7877ecbc495c601907562222453c43cc204a5f"
   integrity sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==
 
-path-to-regexp@^6.2.0, path-to-regexp@^6.2.1, path-to-regexp@^6.2.2:
+path-to-regexp@^6.2.0, path-to-regexp@^6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.2.2.tgz#324377a83e5049cbecadc5554d6a63a9a4866b36"
   integrity sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==
@@ -26676,15 +26521,6 @@ zenscroll@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/zenscroll/-/zenscroll-4.0.2.tgz#e8d5774d1c0738a47bcfa8729f3712e2deddeb25"
   integrity sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==
-
-zip-stream@^5.0.1:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/zip-stream/-/zip-stream-5.0.2.tgz#77b1dce7af291482d368a9203c9029f4eb52e12e"
-  integrity sha512-LfOdrUvPB8ZoXtvOBz6DlNClfvi//b5d56mSWyJi7XbH/HfhOHfUhOqxhT/rUiR7yiktlunqRo+jY6y/cWC/5g==
-  dependencies:
-    archiver-utils "^4.0.1"
-    compress-commons "^5.0.1"
-    readable-stream "^3.6.0"
 
 zip-stream@^6.0.1:
   version "6.0.1"
